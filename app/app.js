@@ -10,11 +10,11 @@ Wedding.config(["$routeProvider",
 	function($routeProvider){
 		$routeProvider.
 
-		when("/", {
-			templateUrl: "partials/login.html",
-			// controller:"loginController"
-		}).
-		when("/main",{
+		// when("/", {
+		// 	templateUrl: "partials/login.html",
+		// 	// controller:"loginController"
+		// }).
+		when("/",{
 			templateUrl: "partials/main",
 			controller: "mainController"
 		}).
